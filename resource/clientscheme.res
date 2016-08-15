@@ -6363,7 +6363,7 @@ Scheme
 		}
 		"9"
 		{
-			"font" "resource/Crosshairs.otf"
+			"font" "resource/crosshairs.ttf"
 			"name" "Crosshairs Regular"
 		}
 		"10"
