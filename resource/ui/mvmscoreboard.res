@@ -24,7 +24,7 @@
 		"textAlignment"	"west"
 		"xpos"			"110"
 		"ypos"			"84"
-		"wide"			"380"
+		"wide"			"550"
 		"tall"			"50"
 		"fgcolor"		"OmpText"
 	}
@@ -96,7 +96,7 @@
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"105"
 		"ypos"			"134"
-		"wide"			"380"
+		"wide"			"545"
 		"tall"			"204"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -111,12 +111,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"490"
-		"ypos"			"134"
-		"wide"			"165"
-		"tall"			"204"
+		"xpos"			"105"
+		"ypos"			"320"
+		"wide"			"545"
+		"tall"			"90"
 		"visible"		"1"
-		
+
 		"CreditStatsBackground"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -134,69 +134,72 @@
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+
+			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" "0"	
 		}
-		
+
 		"CreditsLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"Futura12"
+			"font"			"Futura11"
 			"labelText"		"#TF_PVE_Currency"
-			"textAlignment" "north-west"
+			"textAlignment" "center"
 			"xpos"			"9999"
 			"ypos"			"9999"
 			"wide"			"200"
-			"tall"			"40"
 			"fgcolor"		"tanlight"
 		}
-		
+
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
+			"font"			"Futura11"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"184"
-			"tall"			"60"
+			"tall"			"55"
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"TotalGameCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"0"
-			"ypos"			"105"
+			"font"			"Futura11"
+			"xpos"			"125"
+			"ypos"			"0"
 			"wide"			"184"
-			"tall"			"60"
+			"tall"			"55"
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"PreviousWaveCreditSpendPanel"
+			"font"			"Futura11"
 			"xpos"			"0"
-			"ypos"			"45"
+			"ypos"			"40"
 			"wide"			"184"
-			"tall"			"60"
+			"tall"			"55"
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"0"
-			"ypos"			"150"
+			"font"			"Futura11"
+			"xpos"			"125"
+			"ypos"			"40"
 			"wide"			"184"
-			"tall"			"60"
+			"tall"			"55"
 			"wide"			"200"
 			"visible"		"1"
 		}
@@ -205,7 +208,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
-			"font"			"HudFontSmall"
+			"font"			"Futura11"
 			"labelText"		"%respecstatus%"
 			"textAlignment" "north-west"
 			"xpos"			"180"
