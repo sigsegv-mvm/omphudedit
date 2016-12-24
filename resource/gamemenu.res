@@ -1,6 +1,12 @@
 "GameMenu" [$WIN32]
 {
 
+	"OmphudLabel"
+	{
+		"label" "omphud" 
+		"command" "engine con_enable 1; engine showconsole; clear; echo omphud-redux | v1.2 | special thanks to: omp, omni, doodle, rays, zimmy"
+		"OnlyAtMenu" "0"
+	}
 	"FindAGameButton"
 	{
 		"label" "#MMenu_FindAGame" 
@@ -19,13 +25,6 @@
 		"label" "Workshop"
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" "glyph_steamworkshop"
-	}
-	"VRModeButton"
-	{
-		"label" "#MMenu_VRMode_Activate"
-		"command" "engine vr_toggle"
-		"subimage" "glyph_vr"
-		"OnlyWhenVREnabled" "1"
 	}
 	"TrainingButton"
 	{
